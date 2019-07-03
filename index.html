@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 相对路径：分析当前文档与资源的一个关系，
+                  同一级时：直接写资源名称
+                  下一级：/
+                  上一级：../
+         绝对路径：在网页中的路径为带有HTTP样式或是e:\样式在磁盘中的样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    </head>
+<body>
+    <div class="header">
+        <div class="main clearfix">
+
+            <ul class="nav">
+                <li><a href="#">小米商城</a></li>
+                <li><a href="#">MIUI</a></li>
+                <li><a href="#">loT</a></li>
+                <li><a href="#">云服务</a></li>
+                <li><a href="#">金融</a></li>
+                <li><a href="#">有品</a></li>
+                <li><a href="#">小爱开放平台</a></li>
+                <li><a href="#">企业团购</a></li>
+                <li><a href="#">资质证照</a></li>
+                <li><a href="#">协议规则</a></li>
+                <li><a href="#">下载app</a></li>
+                <li><a href="#">Select Region</a></li>
+            </ul>
+            <div class="buyCar">
+                <span>购物车</span>
+                <div class="detail">购物车中还没有任何商品</div>
+            </div>
+            <ul class="login">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">消息通知</a></li>
+            </ul>
+            
+        </div>
+    </div>
+    <header class=" headerBottom main clearfix">
+        <h1 class="fl"><a href="#"小米></a></h1>
+        <ul class="nav f1">
+            <li><a href="#">小米手机</a></li>
+            <li><a href="#">Redmi</a></li>
+            <li><a href="#">电视</a></li>
+            <li><a href="#">笔记本</a></li>
+            <li><a href="#">家电</a></li>
+            <li><a href="#">路由器</a></li>
+            <li><a href="#">智能硬件</a></li>
+            <li><a href="#">服务</a></li>
+            <li><a href="#">社区</a></li>
+        </ul>
+        <div class="sousuo">
+                <!-- <form action=""> -->
+                <input type="text" placeholder="小米9 小米9SE">
+                <a href="#"></a>
+            <!-- </form> -->
+            </div>
+    </header>
+  
+    <div class="banner main">
+        <ul class="bannerImg clearfix">
+            <li>
+                 <a href="#"><img src="img/banner1.jpg" alt=""></a>
+             </li>
+             <li>
+                 <a href="#"headerBottom><img src="img/banner2.jpg" alt=""></a>
+             </li>
+             <li>
+                 <a href="#"><img src="img/banner3.jpg" alt=""></a>
+             </li>
+             <li>
+                 <a href="#"><img src="img/banner4.jpg" alt=""></a>
+             </li>
+         </ul>
+         <ul class="bannerDot">
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+         </ul>
+         <ul class="bannerLeft">
+             <li>
+                 <span>手机电话卡</span>
+                 <div>内容1</div>
+             </li>
+             <li>
+                 <span>电视 盒子</span>
+                 <div>内容2</div>
+             </li>
+             <li>
+                 <span>笔记本 平板</span>
+                 <div>内容3</div>
+             </li>
+             <li>
+                 <span>家电 插线板</span>
+                 <div>内容4</div>
+             </li>
+             <li>
+                 <span>出行 穿戴</span>
+                 <div>内容5</div>
+             </li>
+             <li>
+                 <span>智能 路由器</span>
+                 <div>内容6</div>
+             </li>
+             <li>
+                 <span>电源 配件</span>
+                 <div>内容7</div>
+             </li>
+             <li>
+                 <span>健康 儿童</span>
+                 <div>内容8</div>
+             </li>
+             <li>
+                 <span>耳机 音箱</span>
+                 <div>内容9</div>
+             </li>
+             <li>
+                <span>生活 箱包</span>
+                <div>内容10</div>
+            </li>
+         </ul>
+ 
+        
+     </div>
+<!-- <div class="backColor">
+     <div class="cont">
+    <img class="contTop" src="img/shouji10.jpg" alt="广告">
+    <h3><a href="#">查看全部
+        <span class="yuan"></span>
+        <span class="jianjiao"></span>
+    </a>手机</h3>
+    <img  class="contLeft" src="img/shouji1.jpg" alt="">
+    <ul class="contRight">
+        <li>
+            <span class="xinpin">新 品</span>
+            <img src="img/shouji2.png" alt="小米9 6GB+128G">
+            <a href="#">小米9 6GB+128G</a>
+            <p>骁龙855，索尼4800万超广角微距三摄</p>
+            <a href="#">
+                <span class="price">2799元
+                        <del>2999元</del>
+                </span> 
+            </a>
+        </li>
+        <li>
+            <img src="img/shouji3.png" alt="小米MIX 3 6GB+128G">
+            <a href="#">小米MIX 3 6GB+128G</a>
+            <p>磁动力滑盖全面屏/四曲面陶瓷机身</p>
+            <a href="#">
+                    <span class="price">3299元
+                    </span> 
+                </a> 
+        </li>
+        <li>
+            <img src="img/shouji4.png" alt="Redmi Note 7 Pro">
+            <a href="#">Redmi Note 7 Pro</a>
+            <p>6GB+128GB大存储，索尼4800万拍照</p>
+            <a href="#">
+                    <span class="price">1599元
+                    </span> 
+                </a>
+        </li>
+        <li>
+            <span class="cheap">秒杀</span>
+            <img src="img/shouji5.png" alt="小米Play 4GB+64GB"> 
+            <a href="#">小米Play 4GB+64GB</a>
+            <p>八核高性能处理器，后置1200万 AI双摄</p>
+            <a href="#">
+                    <span class="price">749元
+                            <del>999元</del>
+                    </span> 
+                </a>
+        </li>
+        <li>
+            <span class="cheap">秒杀</span>
+            <img src="img/shouji6.png" alt="小米8屏幕指纹版 6GB+128GB">
+            <a href="#">小米8屏幕指纹版 6GB+128GB</a>
+            <p>全球首款压感屏幕指纹 骁龙845处理器</p>
+            <a href="#">
+                    <span class="price">1999元
+                            <del>2999元</del>
+                    </span> 
+                </a>
+        </li>
+        <li>
+            <span class="cheap">减200元</span>
+            <img src="img/shouji7.png" alt="小米8青春版6GB+64GB">
+            <a href="#">小米8青春版6GB+64GB</a>
+            <p> 潮流镜面渐变色，2400万自拍旗舰 </p> 
+            <a href="#">
+                    <span class="price">1499元
+                            <del>1699元</del>
+                    </span> 
+                </a>  
+        </li>
+        <li>
+            <span class="cheap">秒杀</span>
+            <img src="img/shouji8.png" alt="Redmi Note 7 6GB+64GB">
+            <a href="#">Redmi Note 7 6GB+64GB</a>
+            <p>4800万拍照，4000mAh大电量</p>
+            <a href="#">
+                    <span class="price">1299元
+                            <del>1399元</del>
+                    </span> 
+                </a>
+        </li>
+        <li>
+            <img src="img/shouji9.png" alt="Redmi K20 Pro 6GB+128GB">
+            <a href="#">Redmi K20 Pro 6GB+128GB</a>
+            <p>骁龙855旗舰处理器，索尼4800超...</p>
+            <a href="#">
+                    <span class="price">1599元
+                    </span> 
+                </a>
+        </li>
+    </ul>
+</div>
+</div> -->
+    <div class="banner">
+        <div class="cont main">
+                <img class="contTop" src="img/shouji10.jpg" alt="广告">
+            <h3><a href="#">查看全部</a>手机</h3>
+            <img class="contLeft" src="img/shouji1.jpg" alt="">
+            <ul class="contRight">
+                <li>
+                    <a href="#">
+                        <span class="tips">新品</span>
+                        <img src="img/shouji2.jpg" alt="">
+                        <h4>小米9 6GB+218GB</h4>
+                        <p>骁龙855 索尼4800万超广角双摄</p>
+                        <p class=“price>
+                         <span class="nowPrice">2799元</span>
+                        <span class="oldPrice">2999元</span>
+                    </p>
+                    </a>
+                </li>
+                <li>
+                        <a href="#">
+                            <img src="img/shouji3.png" alt="">
+                            <h4>小米9 6GB+218GB</h4>
+                            <p>骁龙855 索尼4800万超广角双摄</p>
+                            <p class=“price>
+                             <span class="nowPrice">2799元</span>
+                            <span class="oldPrice">2999元</span>
+                        </p>
+                        </a>
+                 </li>
+                 <li>
+                        <a href="#">
+                            <img src="img/shouji4.png" alt="">
+                            <h4>小米9 6GB+218GB</h4>
+                            <p>骁龙855 索尼4800万超广角双摄</p>
+                            <p class=“price>
+                             <span class="nowPrice">2799元</span>
+                            <span class="oldPrice">2999元</span>
+                        </p>
+                        </a>
+                 </li>
+                 <li>
+                        <a href="#">
+                            <span class="tips1">秒杀</span>
+                            <img src="img/shouji5.png" alt="">
+                            <h4>小米9 6GB+218GB</h4>
+                            <p>骁龙855 索尼4800万超广角双摄</p>
+                            <p class=“price>
+                             <span class="nowPrice">2799元</span>
+                            <span class="oldPrice">2999元</span>
+                        </p>
+                        </a>
+                 </li>
+                 <li>
+                        <a href="#">
+                            <span class="tips1">秒杀</span>
+                            <img src="img/shouji6.png" alt="">
+                            <h4>小米9 6GB+218GB</h4>
+                            <p>骁龙855 索尼4800万超广角双摄</p>
+                            <p class=“price>
+                             <span class="nowPrice">2799元</span>
+                            <span class="oldPrice">2999元</span>
+                        </p>
+                        </a>
+                 </li>
+                 <li>
+                        <a href="#">
+                            <span class="tips1">减200</span>
+                            <img src="img/shouji7.png" alt="">
+                            <h4>小米9 6GB+218GB</h4>
+                            <p>骁龙855 索尼4800万超广角双摄</p>
+                            <p class=“price>
+                             <span class="nowPrice">2799元</span>
+                            <span class="oldPrice">2999元</span>
+                        </p>
+                        </a>
+                 </li>
+                 <li>
+                        <a href="#">
+                            <img src="img/shouji8.png" alt="">
+                            <h4>小米9 6GB+218GB</h4>
+                            <p>骁龙855 索尼4800万超广角双摄</p>
+                            <p class=“price>
+                             <span class="nowPrice">2799元</span>
+                            <span class="oldPrice">2999元</span>
+                        </p>
+                        </a>
+                 </li>
+                 <li>
+                        <a href="#">
+                            <img src="img/shouji9.png" alt="">
+                            <h4>小米9 6GB+218GB</h4>
+                            <p>骁龙855 索尼4800万超广角双摄</p>
+                            <p class=“price>
+                             <span class="nowPrice">2799元</span>
+                            <span class="oldPrice">2999元</span>
+                        </p>
+                        </a>
+                 </li>
+
+                
+            </ul>
+        </div>
+    </div>
+    <!-- tail部分 -->
+    <div class="tail">
+     <!-- <div class="neiRong">
+       <div class="T1"> <a href="#">
+            <span>预约维修服务</span></a>
+       </div>
+       <div class="T2"> <a href="#">
+          <span>7天无理由退货</span></a>
+        </div>
+       <div class="T3"> <a href="#">
+          <span>15天免费退货</span></a>
+        </div>
+       <div class="T4"> <a href="#">
+          <span>满150元包邮</span></a>
+        </div>
+       <div class="T5"> <a href="#">
+          <span>520余家售后网点</span></a>
+        </div> -->
+        <ul class="bangzhu">
+            <li><a class="a1" href="#">预约维修服务</a></li>
+            <li><a class="a2" href="#">7天无理由退货</a></li>
+            <li><a class="a3" href="#">15天免费退货</a></li>
+            <li><a class="a4" href="#">满150元包邮</a></li>
+            <li><a class="a5" href="#">520余家售后网点</a></li>
+        </ul>
+    </div> 
+     <br>
+     <br>
+     <br>
+     <br>
+    <div class="fuwu">
+        <!-- <dl>
+            <dt>帮助中心</dt>
+            <br>
+            <dd>账户管理</dd>
+            <br>
+            <dd>购物指南</dd>
+            <br>
+            <dd>订单操作</dd>
+        </dl>
+        <dl>
+            <dt>服务支持</dt>
+            <br>
+            <dd>售后政策</dd>
+            <br>
+            <dd>自助服务</dd>
+            <br>
+            <dd>相关下载</dd>
+        </dl>
+        <dl>
+            <dt>线下门店</dt>
+            <br>
+            <dd>小米之家</dd>
+            <br>
+            <dd>服务网点</dd>
+            <br>
+            <dd>授权体验店</dd>
+        </dl>
+        <dl>
+            <dt>关于小米</dt>
+            <br>
+            <dd>了解小米</dd>
+            <br>
+            <dd>加入小米</dd>
+            <br>
+            <dd>投资者关系</dd>
+        </dl>
+        <dl>
+            <dt>关注我们</dt>
+            <br>
+            <dd>新浪微博</dd>
+            <br>
+            <dd>官方微信</dd>
+            <br>
+            <dd>联系我们</dd>
+        </dl>
+        <dl>
+            <dt>特色服务</dt>
+            <br>
+            <dd>F码通道</dd>
+            <br>
+            <dd>礼物码</dd>
+            <br>
+            <dd>防伪查询</dd>
+        </dl> -->
+        <ul class="b1">
+            <li>帮助中心</li>
+            <li>服务支持</li>
+            <li>线下门店</li>
+            <li>关于小米</li>
+            <li>关注我们</li>
+            <li>特色服务</li>
+        </ul>
+    </div>
+    <div class="fuliu">
+        <ul class="b2">
+            <li><a href="#">账户管理</a></li>
+            <li><a href="#">购物指南</a></li>
+            <li><a href="#">订单操作</a></li>
+        </ul>
+        <ul class="b3">
+            <li><a href="#">售后政策</a></li>
+            <li><a href="#">自助服务</a></li>
+            <li><a href="#">相关下载</a></li>
+        </ul>
+        <ul class="b4">
+
+            <li><a href="#">小米之家</a></li>
+            <li><a href="#">服务网点</a></li>
+            <li><a href="#">授权体验店</a></li>
+        </ul>
+        <ul class="b5">
+
+            <li><a href="#">了解小米</a></li>
+            <li><a href="#">加入小米</a></li>
+            <li><a href="#">投资者关系</a></li>
+        </ul>
+        <ul class="b6">
+            <li><a href="#">新浪微博</a></li>
+            <li><a href="#">官方微信</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+        <ul class="b7">
+            <li><a href="#">F码通道</a></li>
+            <li><a href="#">礼物码</a></li>
+            <li><a href="#">防伪查询</a></li>
+        </ul>
+        <div class="help3">
+                <p class="p0">400-100-5678</p>
+                <span >周一至周日8:00-18:00</span>
+               <p class="p1">(仅收市话费)</p>
+               <p class="p2">
+                <a href="#">联系客服</a>
+            </p>
+            </div>
+    </div>
+    </body>
+
+</html>
